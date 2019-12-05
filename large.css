@@ -1,0 +1,497 @@
+/*Feuille de style LARGE SCREEN ( min-width: 992px and max-width: 1199px) CSS */
+
+/*-------------------*/
+/*---Bloc du header---*/
+/*-------------------*/
+
+
+body
+{
+	font-family: 'Roboto';
+	width: 100vw;
+	margin: 0px;
+}
+
+#header
+{
+	width: 100vw;
+	height: 150px;
+}
+
+/*--------------------*/
+/*----Bloc du logo----*/
+/*--------------------*/
+
+#logo
+{
+	float: left;
+	margin-top: 45px;
+	margin-left: 6%;
+}
+
+/*------------------*/
+/*---Bloc du menu---*/
+/*------------------*/
+
+nav ul
+{
+	list-style-type:none;
+	margin: 70px 50px 50px 0px;
+	font-size: 14px;
+	color: grey;	
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+li
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main-nav
+{
+	float: right;
+}
+
+.o1
+{
+	padding-top: 30px;
+	border-top: 2px solid #489BFE;
+}
+
+/*------------------*/
+/*--Bloc du slider--*/
+/*------------------*/
+
+#middle
+{
+	width: 100%;
+}
+
+h1
+{
+	font-family: 'Roboto';
+	font-size: 30px;
+}
+
+.titre-couleur
+{
+	color: #489BFE;
+}
+
+.titre-sans-couleur
+{
+	color: #FFFFFF;
+}
+
+.phrase1
+{
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: -15px;
+	margin-bottom: 30px;
+}
+
+#lien-info
+{
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 7px;
+	background-color: #489BFE;
+	border: 2px solid #489BFE;
+	border-bottom-style: ridge;
+	border-radius: 3px;
+}
+
+#text-section
+{
+	width: 480px;
+	height: 170px;
+	margin-left: 80px;
+	position: absolute;
+	margin-top: 80px;
+}
+
+.image-slider 
+{
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+	position: relative;
+	margin-left: 0px;
+	margin-bottom: 60px;
+}
+
+.pave1
+{
+	float: left;
+	left: none;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	bottom: 180px;
+	border: 1px solid black;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 30px;
+	margin-left: -21px;
+}
+
+.pave1 .fas.fa-angle-left
+{
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	left: 25px;
+	bottom: 15px;
+}
+
+.pave2
+{
+	float: right;
+	right: none;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	bottom: 250px;
+	border: 1px solid black;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 30px;
+}
+
+.pave2 .fas.fa-angle-right
+{
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	right: 25px;
+	bottom: 15px;
+}
+
+/*---------------------*/
+/*--Bloc des services--*/
+/*---------------------*/
+
+#les-services
+{
+	width: 100vw;
+	display: inline;
+	margin: 0px auto;
+}
+
+.line1
+{
+	color: grey;
+	opacity: 0.2;
+}
+
+.line2
+{
+	color: grey;
+	opacity: 0.2;
+}
+
+.point
+{
+	display: inline-block;
+	font-size: 11px;
+	color: #489BFE;
+	margin: 0px 0px 0px 0px;
+}
+
+.logo-ux-design
+{
+	margin-right: 40px;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.cercle-1
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid #DFDCDC;
+	position: relative;
+}
+
+.logo-ux-design .fas.fa-circle 
+{
+	font-size: 11px;
+	color: #489BFE;
+	bottom: 12px;
+	right: -5px;
+	position: absolute;
+}
+
+.logo-ux-design .fas.fa-chart-line
+{
+	color: #489BFE;
+	position: absolute;
+	bottom: 12px;
+	left: 11px;
+}
+
+.logo-ui-design
+{
+	margin-right: 40px;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.cercle-2
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid #DFDCDC;
+	position: relative;
+}
+
+.logo-ui-design .fas.fa-circle 
+{
+	font-size: 11px;
+	color: #489BFE;
+	bottom: 12px;
+	right: -5px;
+	position: absolute;
+}
+
+.logo-ui-design .fas.fa-cubes
+{
+	color: #489BFE;
+	position: absolute;
+	bottom: 12px;
+	left: 11px;
+}
+
+.logo-seo
+{
+	margin-right: 40px;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.cercle-3
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid #DFDCDC;
+	position: relative;
+}
+
+.logo-seo .fas.fa-circle 
+{
+	font-size: 11px;
+	color: #489BFE;
+	bottom: 12px;
+	right: -5px;
+	position: absolute;
+}
+
+.fas.fa-chart-pie
+{
+	color: #489BFE;
+	position: absolute;
+	bottom: 12px;
+	left: 11px;
+}
+
+.service-intro
+{
+	width: 56%;
+	margin-left: 25%;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.service-img
+{
+	float: left;
+	margin: 40px auto;
+}
+
+.service-details
+{
+	margin-left: 50%;
+	margin-right: 50px;
+	width: 40%;
+}
+
+/*--------------------*/
+/*--Bloc des projets--*/
+/*--------------------*/
+
+.projets-intro
+{
+	width: 39%;
+	margin-left: 25%;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+/*--Menu des projets--*/
+
+#second-nav
+{
+	width: 428px;
+	margin-left: 32%;
+	margin-top: 0px;
+}
+
+#liste-projets
+{
+	display: inline-flex;
+	justify-content: space-around;
+	padding: 6px;
+	border: 1px solid #F0F0F0;
+	border-radius: 3px;
+	background-color: #F0F0F0;
+	margin-top: 30px;
+}
+
+.p1
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-bottom: 2px solid #489BFE;
+	background-color: #489BFE;
+	color: white;
+	border-bottom: 2px solid #397CCB;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.all-works
+{
+	position: relative;
+}
+
+.triangle
+{
+	font-size: 20px;
+	color: #397CCB;
+	position: absolute;
+	top: 16px;
+	left: 40px;
+}
+
+/*Porfolio*/
+
+.conteneur-portfolio
+{
+	display: inline-block;
+	justify-content: center;
+	width: 100vw;
+	height: auto;
+}
+
+.conteneur-1
+{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100vw;
+	height: auto;
+}
+
+.conteneur-2
+{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100vw;
+	height: 350px;
+}
+.element-1
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/01.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}
+
+.element-2
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/02.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}
+
+.element-3
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/03.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}
+.element-4
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/04.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}
+
+.element-5
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/05.jpg");
+	background-size: contain;
+	background-repeat: no-repeat; 
+	margin: 50px;
+}
+.element-6
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/06.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}
+.element-7
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/07.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}
+.element-8
+{
+	width: 300px;
+	height: 200px;
+	background-image: url("images/08.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	margin: 50px;
+}

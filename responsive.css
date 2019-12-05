@@ -1,0 +1,151 @@
+
+/*Feuille de style CSS repsponsive*/
+
+/*-------------------*/
+/*---Bloc du header---*/
+/*-------------------*/
+
+
+
+@media screen and (max-width: 480px)
+{
+
+
+	body
+	{
+		width: 100vw!important;
+	}
+
+	.page
+	{
+		width: 100vw;
+		display: inline-block;
+		flex-direction: column;
+	}
+
+/*En-tête*/
+	#header
+	{
+		width: 100vw;
+		height: 240px;
+		display: inline-block;
+	}
+
+	#logo
+	{
+		width: 100vw;
+		margin-top: 25px;
+		margin-left: 35%;
+		margin-bottom: 30px;
+		
+
+	}
+
+	nav
+	{
+		width: 100vw;
+	}
+
+	nav li
+	{
+		display: block;
+		text-decoration: underline;
+		font-size: 18px;
+		padding: 4px 120px;
+	}
+
+	nav ul
+	{
+		width: 100vw;
+		margin: 0px 0px 20px 25px;
+		padding: 0px;
+	}
+
+	#main-nav
+	{
+		float: none;
+		font-size: 20px;
+		margin-left: 18%;
+		margin-bottom: 30px;
+	}
+/*Corps*/
+	.image-slider
+	{
+		background-image: none;
+		width: 100%;
+		height: 100px;
+		margin-left: 18%;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.fleches
+	{
+		display: none;
+	}
+
+	#text-section
+	{
+		margin: 0px 0px 0px 0px;
+		width: 100vw;
+		height: 100px;
+		position: absolute;
+	}
+
+	h1
+	{
+		margin: 0px 0px 0px 40px;
+		font-size: 25px;
+	}
+
+	.titre-sans-couleur 
+	{
+		color: grey;
+	}
+	.phrase1
+	{
+		margin: 5px 0px 17px 40px; 
+		color: grey;
+	}
+
+	#lien-info
+	{
+		margin-left: 40px;
+		text-align: center;
+	}
+
+/*Services*/
+
+	#les-services
+	{
+		width: 100%!important;
+		height: auto;
+		margin-top: 30px;
+		display: inline-block;
+	}
+
+	.service-intro
+	{
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
+		margin-left: 18%;
+		margin-bottom: 0px!important;
+	}
+
+	.service-img
+	{
+		display: none;
+		float: none;
+		margin: 0px!important;
+		text-align: center;
+	}
+
+	.service-details
+	{
+		width: 100%;
+		margin-left: 18%;
+		text-align: center;
+	}
+
+}

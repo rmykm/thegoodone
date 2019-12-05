@@ -1,0 +1,194 @@
+
+/*Feuille de style MEDIUM SCREEN (min-width: 768px and max-width: 992px) CSS*/
+
+/*-------------------*/
+/*---Bloc du header---*/
+/*-------------------*/
+
+
+body
+{
+	font-family: 'Roboto';
+	width: 100vw;
+	margin: 0px;
+}
+
+#header
+{
+	width: 100vw;
+	height: 150px;
+}
+
+/*--------------------*/
+/*----Bloc du logo----*/
+/*--------------------*/
+
+#logo
+{
+	float: left;
+	margin-top: 45px;
+	margin-left: 6%;
+}
+
+/*------------------*/
+/*---Bloc du menu---*/
+/*------------------*/
+
+nav ul
+{
+	list-style-type:none;
+	margin: 70px 50px 50px 0px;
+	font-size: 14px;
+	color: grey;	
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+li
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main-nav
+{
+	float: right;
+}
+
+.o1
+{
+	padding-top: 30px;
+	border-top: 2px solid #489BFE;
+}
+
+/*------------------*/
+/*--Bloc du slider--*/
+/*------------------*/
+
+#middle
+{
+	width: 100%;
+}
+
+h1
+{
+	font-family: 'Roboto';
+	font-size: 30px;
+}
+
+.titre-couleur
+{
+	color: #489BFE;
+}
+
+.titre-sans-couleur
+{
+	color: #FFFFFF;
+}
+
+.phrase1
+{
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: -15px;
+	margin-bottom: 30px;
+}
+
+#lien-info
+{
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 7px;
+	background-color: #489BFE;
+	border: 2px solid #489BFE;
+	border-bottom-style: ridge;
+	border-radius: 3px;
+}
+
+#text-section
+{
+	width: 480px;
+	height: 170px;
+	margin-left: 60px;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.image-slider 
+{
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	margin-left: 0px;
+}
+
+
+.pave1
+{
+	float: left;
+	width: 8%;
+	height: 60px;
+	position: absolute;
+	bottom: 190px;
+	border: 1px solid red;
+	background-color: red;
+	opacity: 0.5;
+	border-radius: 40px;
+	margin-left: -80px;
+}
+
+.pave2
+{
+	float: right;
+	width: 8%;
+	height: 60px;
+	position: absolute;
+	bottom: 190px;
+	left: 1405px;
+	border: 1px solid red;
+	background-color: red;
+	opacity: 0.5;
+	border-radius: 40px;
+	margin-right: -60px;
+}
+
+/*---------------------*/
+/*--Bloc des services--*/
+/*---------------------*/
+
+#les-services
+{
+	width: 100vw;
+	display: inline;
+}
+
+.service-intro
+{
+	width: 46%;
+	margin-left: 25%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.service-img
+{
+	float: left;
+	margin-left: 140px;
+	margin-bottom: 40px;
+}
+
+.service-details
+{
+	margin-left: 50%;
+	width: 550px;
+}
+

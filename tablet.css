@@ -1,0 +1,310 @@
+
+/*Feuille de style TABLET SCREEN (min-width: 469px and max-width: 768px) CSS*/
+
+/*-------------------*/
+/*---Bloc du header---*/
+/*-------------------*/
+
+
+body
+{
+	font-family: 'Roboto';
+	width: 100vw;
+	margin: 0px;
+}
+
+#header
+{
+	width: 100vw;
+	height: auto;
+}
+
+/*--------------------*/
+/*----Bloc du logo----*/
+/*--------------------*/
+
+#logo
+{
+	float: none;
+	margin-top: 45px;
+	margin-left: 6%;
+}
+
+/*------------------*/
+/*---Bloc du menu---*/
+/*------------------*/
+
+nav ul
+{
+	list-style-type:none;
+	margin: 60px 50px 50px 0px;
+	font-size: 14px;
+	color: grey;	
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+li
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main-nav
+{
+	float: none;
+	margin-left: 30px;
+}
+
+.o1
+{
+	padding-top: 30px;
+	border-top: 2px solid #489BFE;
+}
+
+/*------------------*/
+/*--Bloc du slider--*/
+/*------------------*/
+
+#middle
+{
+	width: 100%;
+}
+
+h1
+{
+	font-family: 'Roboto';
+	font-size: 23px;
+}
+
+.titre-couleur
+{
+	color: #489BFE;
+}
+
+.titre-sans-couleur
+{
+	color: black;
+}
+
+.phrase1
+{
+	font-family: 'Roboto';
+	color: black;
+	font-size: 12px;
+	margin-top: -15px;
+	margin-bottom: 30px;
+}
+
+#lien-info
+{
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 7px;
+	background-color: #489BFE;
+	border: 2px solid #489BFE;
+	border-bottom-style: ridge;
+	border-radius: 3px;
+}
+
+#text-section
+{
+	width: 80vw;
+	height: 150px;
+	top: 250px;
+	left: 50px;
+	margin: 0px auto!important;
+	text-align: center;
+}
+
+.image-slider 
+{
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin-left: 0px;
+}
+
+/*---------------------*/
+/*--Bloc des services--*/
+/*---------------------*/
+
+#les-services
+{
+	width: 100vw!important;
+}
+
+.point
+{
+	font-size: 11px;
+	color: #489BFE;
+}
+
+/*Icônes UX design*/
+
+.logo-ux-design
+{
+	margin-left: 250px;
+}
+
+.cercle-1
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid #DFDCDC;
+	position: relative;
+}
+
+.logo-ux-design .fas.fa-circle 
+{
+	font-size: 11px;
+	color: #489BFE;
+	bottom: 12px;
+	right: -5px;
+	position: absolute;
+}
+
+.logo-ux-design .fas.fa-chart-line
+{
+	color: #489BFE;
+	position: absolute;
+	bottom: 12px;
+	left: 11px;
+}
+
+/*Icônes UI design*/
+
+.logo-ui-design
+{
+	margin-left: 250px;
+}
+
+.cercle-2
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid #DFDCDC;
+	position: relative;
+}
+
+.logo-ui-design .fas.fa-circle 
+{
+	font-size: 11px;
+	color: #489BFE;
+	bottom: 12px;
+	right: -5px;
+	position: absolute;
+}
+
+.logo-ui-design .fas.fa-cubes
+{
+	color: #489BFE;
+	position: absolute;
+	bottom: 12px;
+	left: 11px;
+}
+
+/*Icônes SEO*/
+
+.logo-seo
+{
+	margin-left: 250px;
+}
+
+.cercle-3
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid #DFDCDC;
+	position: relative;
+}
+
+.logo-seo .fas.fa-circle 
+{
+	font-size: 11px;
+	color: #489BFE;
+	bottom: 12px;
+	right: -5px;
+	position: absolute;
+}
+
+.fas.fa-chart-pie
+{
+	color: #489BFE;
+	position: absolute;
+	bottom: 12px;
+	left: 11px;
+}
+
+/*Descriptions services*/
+
+.service-intro
+{
+	vertical-align: middle;
+	width: 46%;
+	text-align: center;
+	margin-bottom: 0px!important;
+	margin-top: 0px;
+}
+
+.service-intro h1
+{
+	font-size: 35px;
+}
+
+.service-img
+{
+	float: none;
+	text-align: center;
+	margin: 0px!important;
+}
+
+.service-details
+{
+	width: 80vw;
+	margin: 0px 10px 0px 50px;
+	text-align: center;
+
+}
+
+.service-details h2
+{
+	font-size: 20px;
+}
+
+/*--------------------*/
+/*--Bloc des projets--*/
+/*--------------------*/
+
+.projets-intro
+{
+	vertical-align: middle;
+	width: 46%;
+	text-align: center;
+	margin-bottom: 50px!important;
+	margin-top: 50px!important;
+	margin-left: 25%;
+}
+
+.projets-intro h1
+{
+	font-size: 35px;
+}
+
+#second-nav
+{
+	display: none;
+}
